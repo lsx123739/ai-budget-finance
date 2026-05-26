@@ -1,3 +1,11 @@
+# ========== 防报错：检查是否已上传数据 ==========
+import streamlit as st
+import pandas as pd
+
+if "df_clean" not in st.session_state or st.session_state.df_clean is None:
+    st.error("⚠️ 请先在「数据上传与标准化」上传数据！")
+    st.stop()
+# ==================================================
 import streamlit as st
 import pandas as pd
 import numpy as np
