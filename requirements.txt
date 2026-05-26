@@ -1,0 +1,10 @@
+# 基础数据处理
+streamlit
+pandas
+numpy
+
+# 时间序列/AI预测
+prophet
+
+# 可选（可视化）
+matplotlib
